@@ -100,6 +100,8 @@ html {
   font-size: 30px;
   font-weight: 700;
   line-height: 100%;
+  max-width: 196px;
+  margin-bottom: 6px;
 }
 
 h1,
@@ -272,8 +274,8 @@ ol {
 }
 
 .button:active {
-  background-color: #ffffff;
-  color: #000;
+  background-color: #545050;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -291,23 +293,8 @@ ol {
   text-align: center;
 }
 
-.search-form__submit-button:hover {
-  text-decoration: underline;
-}
-
-.search-form__submit-button:active {
-  background-color: #545050;
-  text-decoration: none;
-}
-
 .more-button {
   width: 100%;
-}
-
-.more-button:active {
-  background-color: #545050;
-  color: #fff;
-  text-decoration: none;
 }
 
 .content__card-link_current {
